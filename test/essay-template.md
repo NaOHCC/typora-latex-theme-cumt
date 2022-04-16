@@ -1,52 +1,18 @@
-<div class="cover" style="page-break-after:always;font-family:方正公文仿宋;width:100%;height:100%;border:none;margin: 0 auto;text-align:center;">
-    <div style="width:60%;margin: 0 auto;height:0;padding-bottom:10%;">
-        </br>
-        <img src="https://gitee.com/Keldos-Li/picture/raw/master/img/%E6%A0%A1%E5%90%8D-%E9%BB%91%E8%89%B2.svg" alt="校名" style="width:100%;"/>
+<div id="cover">
+    <img id="school-name">
+    <img id="school-icon">
+    <p class="essay-name">《论文111名称》</p>
+    <br/>
+    <div id="essay-info">
+        <div><span>题　　目：</span><span>计算机工作枢纽</span></div>
+        <div><span>上课时间：</span><span>论文题目</span></div>
+        <div><span>学　　号：</span><span>123456789</span></div>
+        <div><span>日　　期：</span><span>2022.2.22</span></div>
+        <div><span>题　　目：</span><span>论文题目</span></div>
     </div>
-    </br></br></br></br></br>
-    <div style="width:60%;margin: 0 auto;height:0;padding-bottom:40%;">
-        <img src="https://gitee.com/Keldos-Li/picture/raw/master/img/%E6%A0%A1%E5%BE%BD-%E9%BB%91%E8%89%B2.svg" alt="校徽" style="width:100%;"/>
-	</div>
-    </br></br></br></br></br></br></br></br>
-    <span style="font-family:华文黑体Bold;text-align:center;font-size:20pt;margin: 10pt auto;line-height:30pt;">《论文名称》</span>
-    <p style="text-align:center;font-size:14pt;margin: 0 auto">论文类型 </p>
-    </br>
-    </br>
-    <table style="border:none;text-align:center;width:72%;font-family:仿宋;font-size:14px; margin: 0 auto;">
-    <tbody style="font-family:方正公文仿宋;font-size:12pt;">
-    	<tr style="font-weight:normal;"> 
-    		<td style="width:20%;text-align:right;">题　　目</td>
-    		<td style="width:2%">：</td> 
-    		<td style="width:40%;font-weight:normal;border-bottom: 1px solid;text-align:center;font-family:华文仿宋"> 论文题目</td>     </tr>
-    	<tr style="font-weight:normal;"> 
-    		<td style="width:20%;text-align:right;">上课时间</td>
-    		<td style="width:2%">：</td> 
-    		<td style="width:40%;font-weight:normal;border-bottom: 1px solid;text-align:center;font-family:华文仿宋"> 上课时间</td>     </tr>
-    	<tr style="font-weight:normal;"> 
-    		<td style="width:20%;text-align:right;">授课教师</td>
-    		<td style="width:2%">：</td> 
-    		<td style="width:40%;font-weight:normal;border-bottom: 1px solid;text-align:center;font-family:华文仿宋">教师姓名 </td>     </tr>
-    	<tr style="font-weight:normal;"> 
-    		<td style="width:20%;text-align:right;">姓　　名</td>
-    		<td style="width:2%">：</td> 
-    		<td style="width:40%;font-weight:normal;border-bottom: 1px solid;text-align:center;font-family:华文仿宋"> 你的名字</td>     </tr>
-    	<tr style="font-weight:normal;"> 
-    		<td style="width:20%;text-align:right;">学　　号</td>
-    		<td style="width:2%">：</td> 
-    		<td style="width:40%;font-weight:normal;border-bottom: 1px solid;text-align:center;font-family:华文仿宋">你的学号 </td>     </tr>
-    	<tr style="font-weight:normal;"> 
-    		<td style="width:20%;text-align:right;">组　　别</td>
-    		<td style="width:%">：</td> 
-    		<td style="width:40%;font-weight:normal;border-bottom: 1px solid;text-align:center;font-family:华文仿宋"> 你的组别</td>     </tr>
-    	<tr style="font-weight:normal;"> 
-    		<td style="width:20%;text-align:right;">日　　期</td>
-    		<td style="width:2%">：</td> 
-    		<td style="width:40%;font-weight:normal;border-bottom: 1px solid;text-align:center;font-family:华文仿宋">完成日期</td>     </tr>
-    </tbody>              
-    </table>
 </div>
-<!-- 注释语句：导出PDF时会在这里分页 -->
 
+<!-- 注释语句：导出PDF时会在这里分页 -->
 
 # 计算机工作枢纽——操作系统
 
@@ -54,13 +20,14 @@
 <center><span style="font-family:华文楷体;font-size:9pt;line-height:9mm">浙江大学***** (单位)</span>
 </center>
 <div>
-<div style="width:52px;float:left; font-family:方正公文黑体;">摘　要：</div> 
+<div style="float:left; font-family:方正公文黑体;">摘　要：</div> 
 <div style="overflow:hidden; font-family:华文楷体;">在信息化时代背景下，计算机操作系统在各行业领域中得到广泛应用。本文试图通过对计算机系统概念、功能和分类、历史的介绍，大致地给出对计算机操作系统的认识，并通过对当前主流桌面操作系统Windows和macOS的简要介绍，使读者能够对现代图形界面操作系统有一个较为全面的了解，从而喜欢上某一个操作系统，供读者参考。</div>
 </div>
 <div>
-<div style="width:52px;float:left; font-family:方正公文黑体;">关键词：</div> 
+<div style="float:left; font-family:方正公文黑体;">关键词：</div> 
 <div style="overflow:hidden; font-family:华文楷体;">计算机；操作系统；功能；发展；Windows；macOS；</div>
 </div>
+
 
 
 # Computer Work Hub — Operating System

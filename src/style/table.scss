@@ -1,4 +1,8 @@
 #write {
+    .md-table-fig {
+        margin-top: $table-margin-top;
+        margin-bottom: $table-margin-bottom;
+    }
     // 三线表
     table {
         margin: 100px auto;

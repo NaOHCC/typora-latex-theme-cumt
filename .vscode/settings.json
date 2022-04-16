@@ -1,16 +1,19 @@
 {
     "liveSassCompile.settings.formats": [
         {
-            "format": "expanded",
+            "format": "compact",
             "extensionName": ".css",
             "savePath": "/dist/css"
         }
     ],
+    "liveSassCompile.settings.includeItems": [
+        "main.scss"
+    ],
+    "liveSassCompile.settings.generateMap": false,
     "liveSassCompile.settings.excludeList": [
         "**/node_modules/**",
         ".vscode/**",
-        "latex-theme.scss",
         "src/**",
-        "latex-theme copy.scss"
+        "test/**"
     ]
 }
