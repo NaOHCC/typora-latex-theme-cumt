@@ -56,7 +56,7 @@ body {
         /* background: ;*/
         color: #dddddd;
     }
-    font-family: $sourceMode-font, $code-font, $ui-font, monospace;
+    font-family: $sourceMode-font;
     line-height: 2rem;
 }
 
@@ -69,7 +69,7 @@ pre.md-meta-block {
         color: white !important;
     }
     padding: 1.4em;
-    font-family: $code-font, $ui-font, monospace;
+    font-family: $code-font;
 }
 
 // override the default style for focused headings

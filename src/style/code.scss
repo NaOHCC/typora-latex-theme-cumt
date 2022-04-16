@@ -1,6 +1,6 @@
 /* 行内代码 */
 code {
-    font-family: $code-font, $ui-font, monospace;
+    font-family: $code-font;
 }
 h1 code,
 h2 code,
@@ -23,11 +23,23 @@ li code {
         /* 黑色模式修改 */
         box-shadow: 0 0 1px 1px #141414;
     }
-    font-family: $code-font, $ui-font, monospace;
+    font-family: $code-font;
+
     box-sizing: border-box;
     border-right: 0px;
     margin: 0 2px 0 2px;
     padding: 0 2px 0 2px;
     /* 圆角 */
     border-radius: 2px 2px 2px 2px;
+}
+#write {
+    // 代码块样式
+    .CodeMirror-wrap {
+        padding: 10px; // FIXME 当代码太长跨页的时候好像也会有点问题
+    }
+
+    .CodeMirror-code pre {
+        font-family: $code-font;
+        line-height: $code-font-line-height;
+    }
 }
