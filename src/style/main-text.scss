@@ -16,8 +16,9 @@
 
     p {
         text-align: left;
-        margin-top: $main-text-margin-top;
-        margin-bottom: $main-text-margin-bottom;
+        line-height: $main-text-line-height; // 行距
+        margin-top: $main-text-margin-top; // 段前距
+        margin-bottom: $main-text-margin-bottom; // 段后距
     }
 
     // 超链接

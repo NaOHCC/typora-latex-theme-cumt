@@ -1,6 +1,6 @@
 @media screen {
     #write {
-        padding: $set-margin;
+        padding: $screen-margin;
         @if $theme == "light" {
             /* 添加一个淡蓝色的边框 */
             /* border: 0.8px solid #AAC ; */
@@ -19,7 +19,7 @@
         padding: 0 !important;
     }
     @page {
-        margin: 2cm 2cm 2cm 2cm !important; /* 页边距 */
+        margin: $print-margin;
     }
 }
 
