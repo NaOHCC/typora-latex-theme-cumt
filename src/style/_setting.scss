@@ -89,8 +89,9 @@ $print-margin: 2cm 2cm 2cm 2cm !important; // 打印的页边距
 // == 控制设置 ==
 $toc-show-title: none; // 目录中是否显示一级标题
 // == 颜色设置 ==
+// 正文区背景颜色
+$main-text-background-color: white;
 // 超链接颜色
-$link-color-light: #2e67d3;
-$link-color-dark: #8bb1f9;
+$link-color: #2e67d3;
 // source mode 设置
 $sourceMode-font: $code-font, $main-text-font;

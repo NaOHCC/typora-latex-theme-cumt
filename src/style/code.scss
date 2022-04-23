@@ -10,19 +10,10 @@ h5 code,
 h6 code,
 p code,
 li code {
-    @if $theme == "light" {
-        color: rgb(60, 112, 198);
-        background-color: #fefefe;
-        /* 阴影 */
-        box-shadow: 0 0 1px 1px #c8d3df;
-    } @else if $theme == "dark" {
-        /* 黑色模式修改 */
-        color: #8bb1f9;
-        /* 黑色模式修改 */
-        background-color: #161616;
-        /* 黑色模式修改 */
-        box-shadow: 0 0 1px 1px #141414;
-    }
+    color: rgb(60, 112, 198);
+    background-color: #fefefe;
+    /* 阴影 */
+    box-shadow: 0 0 1px 1px #c8d3df;
     font-family: $code-font;
 
     box-sizing: border-box;

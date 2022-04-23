@@ -1,16 +1,10 @@
 @media screen {
     #write {
         padding: $screen-margin;
-        @if $theme == "light" {
-            /* 添加一个淡蓝色的边框 */
-            /* border: 0.8px solid #AAC ; */
-            /* 页边阴影 */
-            box-shadow: 0 0 24px 12px #cccccc;
-        } @else if $theme == "dark" {
-            /* border: 1px solid #AAAAAA ;*/
-            /* 页边阴影 */
-            box-shadow: 0 0 24px 12px #101010;
-        }
+        /* 添加一个淡蓝色的边框 */
+        /* border: 0.8px solid #AAC ; */
+        /* 页边阴影 */
+        box-shadow: 0 0 24px 12px #cccccc;
     }
 }
 
@@ -129,13 +123,4 @@ h6.md-focus:before {
     vertical-align: inherit;
     font-weight: inherit;
     line-height: inherit;
-}
-
-/////////////////////////暗黑模式
-body {
-    /* counter-reset: tableHead 0 imgHead 0; */
-    @if $theme == "dark" {
-        color: #dddddd;
-        background-color: #282828;
-    }
 }
