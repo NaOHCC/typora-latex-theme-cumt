@@ -1,4 +1,4 @@
-![cover](./Supplemental/cover.png)
+![cover](./examples/cover.png)
 # Typora 伪装 LaTeX 中文样式主题
 
 [下载与安装](#下载与安装) | [帮助文档](https://github.com/Keldos-Li/typora-latex-theme/wiki) | [个性化设置](https://github.com/Keldos-Li/typora-latex-theme/wiki/%E4%B8%AA%E6%80%A7%E5%8C%96%E8%AE%BE%E7%BD%AE) | [贡献指南](https://github.com/Keldos-Li/typora-latex-theme/wiki/%E8%B4%A1%E7%8C%AE%E6%8C%87%E5%8D%97) | [技术细节](https://github.com/Keldos-Li/typora-latex-theme/wiki/%E6%8A%80%E6%9C%AF%E7%BB%86%E8%8A%82) | [常见问题](https://github.com/Keldos-Li/typora-latex-theme/wiki/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98)  
@@ -19,7 +19,7 @@ Markdown 的轻量化特性，使您可以专注于论文内容而不用担心�
 
 ### 封面，摘要和关键词
 
-| ![sample-essay_1](https://raw.githubusercontent.com/Keldos-Li/pictures/main/typora-latex-theme/sample-essay_1.png)|![sample-essay_2](https://raw.githubusercontent.com/Keldos-Li/pictures/main/typora-latex-theme/sample-essay_2.png)|
+| ![sample-essay_1](https://raw.githubusercontent.com/NaOHCC/-pictures/master/typora-latex-theme-cumt/cover.png)|![sample-essay_2](https://raw.githubusercontent.com/NaOHCC/-pictures/master/typora-latex-theme-cumt/fisrt-page.png)|
 | :----: | :----: |
 
 ### 预览与编写
@@ -101,7 +101,8 @@ $$
 
 ## 鸣谢
 
-本项目是在下面两人工作的基础上完成的：  
+本项目是在下面三人工作的基础上完成的：  
 
+- [Keldos-Li/typora-latex-theme](https://github.com/Keldos-Li/typora-latex-theme)
 - [yfzhao20/Typora-markdown](https://github.com/yfzhao20/Typora-markdown)  
 - [du33169/typora-theme-essay_cn](https://github.com/du33169/typora-theme-essay_cn)  
